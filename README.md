@@ -122,31 +122,51 @@ Features:
 - Reduces transportation distance and delivery time
 
 ---
-
 ## Project Structure
 
-```text
-warehouse-management-system
-│
-├── eureka-server
-├── api-gateway
-├── auth-service
-├── customer-service
-├── product-service
-├── inventory-service
-├── warehouse-service
-└── order-service
+    warehouse-management-system
+    │
+    ├── eureka-server
+    ├── api-gateway
+    ├── auth-service
+    ├── customer-service
+    ├── product-service
+    ├── inventory-service
+    ├── warehouse-service
+    └── order-service
+
 ---
 
-API Flow
-Client
-   ↓
-API Gateway
-   ↓
-Microservices
-   ↓
-Database
+## API Flow
+
+    Client
+       ↓
+    API Gateway
+       ↓
+    Microservices
+       ↓
+    Database
 
 Example:
 
-Client → Gateway → Order Service → Inventory Service → Product Service
+    Client → Gateway → Order Service → Inventory Service → Product Service
+
+Key Highlights
+Distributed microservices architecture
+Scalable and modular backend design
+Enterprise-level security implementation
+Centralized API routing and authentication
+Optimized warehouse routing using graph algorithms
+RESTful API development following best practices
+Future Enhancements
+Docker and Kubernetes deployment
+Kafka-based asynchronous communication
+Redis caching
+Monitoring with Prometheus and Grafana
+CI/CD pipeline integration
+Notification and Email services
+Author
+
+K Tejesh
+
+Backend Developer | Java | Spring Boot | Microservices | MySQL
