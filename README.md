@@ -136,3 +136,17 @@ warehouse-management-system
 ├── inventory-service
 ├── warehouse-service
 └── order-service
+---
+
+API Flow
+Client
+   ↓
+API Gateway
+   ↓
+Microservices
+   ↓
+Database
+
+Example:
+
+Client → Gateway → Order Service → Inventory Service → Product Service
